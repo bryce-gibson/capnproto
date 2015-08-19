@@ -344,7 +344,7 @@ Cap'n Proto enums become C++11 "enum classes".  That means they behave like any 
 the enum's values are scoped within the type.  E.g. for an enum `Foo` with value `bar`, you must
 refer to the value as `Foo::BAR`.
 
-To match prevaling C++ style, an enum's value names are converted to UPPERCASE_WITH_UNDERSCORES
+To match prevailing C++ style, an enum's value names are converted to UPPERCASE_WITH_UNDERSCORES
 (whereas in the schema language you'd write them in camelCase).
 
 Keep in mind when writing `switch` blocks that an enum read off the wire may have a numeric
@@ -877,7 +877,7 @@ tips will apply.
 
 ## Lessons Learned from Protocol Buffers
 
-The author of Cap'n Proto's C++ implementation also wrote (in the past) verison 2 of Google's
+The author of Cap'n Proto's C++ implementation also wrote (in the past) version 2 of Google's
 Protocol Buffers.  As a result, Cap'n Proto's implementation benefits from a number of lessons
 learned the hard way:
 
